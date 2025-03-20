@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Companion</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Travel Companion</h1>
+            <p>Your personal assistant for travel recommendations and advice</p>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages">
+                    <div class="message assistant">
+                        <p>Hello! I'm your AI travel companion. Where would you like to travel? Ask me about destinations, recommendations, or travel tips!</p>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Ask about a destination...">
+                    <button id="send-button">Send</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Created by Zacharias Wong Zhi Kai - <a href="https://github.com/ZachWong1409/travel-companion-ai" target="_blank">GitHub Repository</a></p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
