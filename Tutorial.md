@@ -13,17 +13,9 @@ Create a new directory for your project:
 bashCopymkdir travel-companion-ai
 cd travel-companion-ai
 
-Create the following folder structure:
-Copytravel-companion-ai/
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── templates/
-├── app.py
-├── .env.template
-├── .gitignore
-└── requirements.txt
+# Create the following folder structure:
+![image](https://github.com/user-attachments/assets/96e437bf-1d65-43b2-992b-5390d02aa95e)
+
 
 
 # Step 2: Set Up Version Control with Git
