@@ -23,6 +23,10 @@ A Flask-based web application that uses AI to provide travel recommendations and
 
 ## Screenshots
 
+![Screenshot 2025-03-21 232638](https://github.com/user-attachments/assets/03e00dc6-dc48-46b1-9136-a45620838dc9)
+
+![Screenshot 2025-03-21 232645](https://github.com/user-attachments/assets/cda6c3a7-6899-454d-b9d6-93499c7b80b7)
+
 
 ## Future Enhancements
 - User accounts and saved preferences
