@@ -1,37 +1,13 @@
-AI Travel Companion Chatbot Tutorial
-This step-by-step guide will help you build a travel companion chatbot using Python, Flask, and OpenRouter API for AI-powered responses.
-Show Image
-Table of Contents
+#AI Travel Companion Chatbot Tutorial
+This is Step By step Guide on how i created this Travel Chatbot. This tutorial will guide you through creating a travel companion chatbot using Python, Flask, and OpenRouter API for AI responses.
 
-Project Overview
-Step 1: Set Up Project Structure
-Step 2: Set Up Version Control
-Step 3: Create Flask Application
-Step 4: Create HTML Template
-Step 5: Add CSS Styling
-Step 6: Add JavaScript Functionality
-Step 7: Add Background Image
-Step 8: Set Up OpenRouter API
-Step 9: Run the Application
-Step 10: Deploy Your Application
-Step 11: Update GitHub Repository
+The model used for this chatbot is using DeepSeek: R1 Distill Qwen 32B which is free at the moment on OpenRouter.ai, however you may explore and play around with all the available models on the website.
 
-Project Overview
-This project creates an AI-powered travel companion chatbot that can:
+This parts talks about what is DeepSeek: R1 Distill Qwen 32B abit, so if u want to skip to step 1, go ahead. DeepSeek: R1 Distill Qwen 32B is a language model that created through a process called "distillation", meaning that a smaller model (Qwen 2.5 32B) is trained to mimic the behavior of Deepseek R1 which is a more larger and powerful model. https://www.ibm.com/think/topics/knowledge-distillation#:~:text=Knowledge%20distillation%20is%20a%20machine,for%20massive%20deep%20neural%20networks. is a good place to understand how distillation works as IBM goes in-detail on how distillation works.
 
-Answer travel-related questions
-Provide destination recommendations
-Create itineraries with budget estimates
-Offer travel tips and advice
+Ok now the fun part, this is where we start setting up the project.
 
-The application uses:
-
-Flask for the web framework
-OpenRouter API to access AI language models
-HTML/CSS/JavaScript for the frontend
-Responsive design for mobile compatibility
-
-Step 1: Set Up Project Structure
+#Step 1: Set Up Project Structure
 
 Create a new directory for your project:
 bashCopymkdir travel-companion-ai
