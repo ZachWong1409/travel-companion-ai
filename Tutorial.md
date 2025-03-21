@@ -7,7 +7,7 @@ This parts talks about what is DeepSeek: R1 Distill Qwen 32B abit, so if u want 
 
 Ok now the fun part, this is where we start setting up the project.
 
-#Step 1: Set Up Project Structure
+# Step 1: Set Up Project Structure
 
 Create a new directory for your project:
 bashCopymkdir travel-companion-ai
@@ -26,7 +26,7 @@ Copytravel-companion-ai/
 └── requirements.txt
 
 
-Step 2: Set Up Version Control with Git
+# Step 2: Set Up Version Control with Git
 
 Initialize a Git repository:
 bashCopygit init
