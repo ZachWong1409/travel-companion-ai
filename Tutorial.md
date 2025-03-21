@@ -52,7 +52,7 @@ markdownCopy# AI Travel Companion
 A Flask-based web application that uses AI to provide travel recommendations and advice.
 
 
-Step 3: Create the Flask Application
+# Step 3: Create the Flask Application
 
 Create app.py:
 pythonCopyfrom flask import Flask, render_template, request, jsonify
@@ -135,13 +135,13 @@ SITE_NAME=AI Travel Companion
 # Flask configuration
 FLASK_ENV=development
 
-Create requirements.txt:
+# Create requirements.txt:
 Copyflask==2.3.3
 requests==2.31.0
 python-dotenv==1.0.0
 
 
-Step 4: Create HTML Template
+# Step 4: Create HTML Template
 Create templates/index.html:
 htmlCopy<!DOCTYPE html>
 <html lang="en">
@@ -181,7 +181,7 @@ htmlCopy<!DOCTYPE html>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
-Step 5: Add CSS Styling
+# Step 5: Add CSS Styling
 Create static/css/style.css:
 cssCopy* {
     box-sizing: border-box;
@@ -351,7 +351,7 @@ footer a:hover {
         max-width: 90%;
     }
 }
-Step 6: Add JavaScript for Chat Functionality
+# Step 6: Add JavaScript for Chat Functionality
 Create static/js/script.js:
 javascriptCopydocument.addEventListener('DOMContentLoaded', () => {
     const chatMessages = document.getElementById('chat-messages');
@@ -518,7 +518,7 @@ javascriptCopydocument.addEventListener('DOMContentLoaded', () => {
     // Focus input field on page load
     userInput.focus();
 });
-Step 7: Add a Background Image
+# Step 7: Add a Background Image
 
 Create a folder static/images/ and add a travel-themed background image named travel-bg.png.
 You can download a free travel-themed image from sites like Unsplash or Pexels. Here are some search terms to use:
@@ -542,7 +542,7 @@ SITE_NAME=AI Travel Companion
 FLASK_ENV=development
 
 
-Step 9: Install Dependencies and Run the Application
+# Step 9: Install Dependencies and Run the Application
 
 Set up a virtual environment:
 bashCopypython -m venv venv
@@ -561,32 +561,7 @@ bashCopypython app.py
 
 Open your browser and go to http://127.0.0.1:5000
 
-Step 10: Deploy Your Application (Optional)
-
-Create a Procfile for Heroku deployment:
-Copyweb: gunicorn app:app
-
-Add gunicorn to requirements.txt:
-Copyflask==2.3.3
-requests==2.31.0
-python-dotenv==1.0.0
-gunicorn==20.1.0
-
-Deploy to Heroku:
-bashCopy# Install Heroku CLI if you haven't already
-heroku login
-heroku create your-app-name
-git push heroku main
-
-Alternative deployment options:
-
-Render: Connect your GitHub repository and follow their deployment instructions
-PythonAnywhere: Upload your files and set up a WSGI configuration
-Vercel: Use a custom build script for Flask applications
-
-
-
-Step 11: Update GitHub Repository
+# Step 11: Update GitHub Repository
 
 Commit your changes:
 bashCopygit add .
@@ -605,7 +580,7 @@ A license file (MIT recommended)
 
 
 
-Next Steps and Enhancements
+# Next Steps and Enhancements
 Once your basic application is working, consider these enhancements:
 
 User accounts: Add login functionality to save conversations
