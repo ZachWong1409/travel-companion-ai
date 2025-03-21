@@ -1,4 +1,4 @@
-#AI Travel Companion Chatbot Tutorial
+# AI Travel Companion Chatbot Tutorial
 This is Step By step Guide on how i created this Travel Chatbot. This tutorial will guide you through creating a travel companion chatbot using Python, Flask, and OpenRouter API for AI responses.
 
 The model used for this chatbot is using DeepSeek: R1 Distill Qwen 32B which is free at the moment on OpenRouter.ai, however you may explore and play around with all the available models on the website.
@@ -181,6 +181,7 @@ htmlCopy<!DOCTYPE html>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
+
 # Step 5: Add CSS Styling
 Create static/css/style.css:
 cssCopy* {
@@ -531,7 +532,7 @@ You can download a free travel-themed image from sites like Unsplash or Pexels. 
 
 Make sure the image is not too detailed, as it will be behind text.
 
-Step 8: Set Up OpenRouter API
+# Step 8: Set Up OpenRouter API
 
 Sign up for an account at OpenRouter
 Generate an API key from your dashboard
