@@ -28,7 +28,7 @@ def get_ai_response(prompt):
                 "Content-Type": "application/json"
             },
             data=json.dumps({
-                "model": "openai/gpt-3.5-turbo", # You can change this to other models
+                "model": "deepseek/deepseek-r1-distill-qwen-32b:free", # You can change this to other models
                 "messages": [
                     {
                         "role": "system",
