@@ -10,7 +10,9 @@ Ok now the fun part, this is where we start setting up the project.
 # Step 1: Set Up Project Structure
 
 Create a new directory for your project:
+
 bashCopymkdir travel-companion-ai
+
 cd travel-companion-ai
 
 # Create the following folder structure:
